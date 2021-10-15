@@ -1,0 +1,62 @@
+body{
+    background-color: darkgreen;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 35%;
+    height: 20vh;
+    background-color: aliceblue;
+    margin: 0 auto;
+    position: relative;
+    top: 35vh;
+}
+.white-keys{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.key{
+    width: 15%;
+    height: 20vh;
+    border: 2px solid black;
+}
+.key span{
+    position: absolute;
+    top: 15vh;
+    font-size: 18px;
+}
+.black-keys{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 0px;
+    left: 1vw;
+}
+.bkeys{
+    width: 8%;
+    height: 13vh;
+    background-color: black;
+    margin-left: 7%;
+    color: white;
+}
+.transparentbg{
+    background-color: transparent;
+    margin-left: 4%!important;
+}
+.bkeys span{
+    position: absolute;
+    top: 8vh;
+    font-size: 18px;
+    margin-left: 15px;
+}
